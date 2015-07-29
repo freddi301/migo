@@ -1,4 +1,4 @@
-#Migo
+#Migo ![linux](http://dev.nepomuk.semanticdesktop.org/download/static/linux.png)
 
 **Kernel** + **Busybox** x64 in **3MB**
 
