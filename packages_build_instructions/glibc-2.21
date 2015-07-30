@@ -1,0 +1,2 @@
+../configure --prefix=/usr --enable-kernel=4.0.0 --disable-profile &&
+make -j 8 && make install install_root=/media/frederik/migo/pkg/glibc-2.21

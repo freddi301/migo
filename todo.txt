@@ -1,5 +1,8 @@
 wanted packages:
 	coreutils
 	util-linux
-	dbus
 	systemd
+
+dependncies:
+	glibc
+	dbus
