@@ -1,2 +1,2 @@
-.configure --prefix=/media/frederik/migo/pkg/coreutils-8.24 --enable-single-binary=symlinks --without-selinux && make && make install
-# CFLAGS='-static' # until get glibc work 
+./configure --prefix=/media/frederik/migo/pkg/coreutils-8.24 --enable-single-binary=symlinks CFLAGS='-static' && make && make install
+# <CFLAGS='-static'> + <--enable-single-binary=symlinks> # make smaller binaries
